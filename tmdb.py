@@ -3,7 +3,7 @@ tmdb.py is a wrapper for The Movie Database API v3
 Their documentation is at:
     http://docs.themoviedb.apiary.io/
 
-Created by Artifaxx on 2014-04-01
+Contributions made by Artifaxx on inital commit
 '''
 #Standar library imports
 import cgi
