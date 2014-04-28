@@ -30,7 +30,9 @@ class TMDB:
 
         params={"api_key" : api_key}
 
-        self.request("configuration", params)
+        body = self.request("configuration", params)
+        self.images = body["images"]
+        self.change_keys = body["change_keys"]
 
     def request(self, path, params={}):
         uri = "{}/{}".format(TMDB.uri, path)
